@@ -1,0 +1,89 @@
+jas_seq.lo: jas_seq.c \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/stdlib.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdlib.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/features.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/alloca.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/assert.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/math.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/math.h \
+  ../include/jasper/jas_seq.h ../include/jasper/jas_config.h \
+  ../include/jasper/jas_stream.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdio.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/fcntl.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/fcntl.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/string.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/string.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/strings.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/unistd.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/posix.h \
+  ../include/jasper/jas_types.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stddef.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/sys/types.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/endian.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdint.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/sys/select.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/sys/sysmacros.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdbool.h \
+  ../include/jasper/jas_malloc.h ../include/jasper/jas_math.h
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/stdlib.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdlib.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/features.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/alloca.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/assert.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/math.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/math.h:
+
+../include/jasper/jas_seq.h:
+
+../include/jasper/jas_config.h:
+
+../include/jasper/jas_stream.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdio.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/fcntl.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/fcntl.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/string.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/string.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/strings.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/unistd.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/posix.h:
+
+../include/jasper/jas_types.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stddef.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/sys/types.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/endian.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdint.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/stdint.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/sys/select.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/sys/sysmacros.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdbool.h:
+
+../include/jasper/jas_malloc.h:
+
+../include/jasper/jas_math.h:

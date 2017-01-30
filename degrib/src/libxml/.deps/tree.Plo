@@ -1,0 +1,117 @@
+tree.lo: tree.c libxml.h config.h include/libxml/xmlversion.h \
+  include/libxml/xmlexports.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdio.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/features.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/string.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/string.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/strings.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/limits.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/limits.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/ctype.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/ctype.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/stdlib.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdlib.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/alloca.h \
+  include/libxml/xmlmemory.h include/libxml/threads.h \
+  include/libxml/globals.h include/libxml/parser.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/stdarg.h \
+  /Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdarg.h \
+  include/libxml/tree.h include/libxml/xmlstring.h \
+  include/libxml/xmlregexp.h include/libxml/dict.h include/libxml/hash.h \
+  include/libxml/valid.h include/libxml/xmlerror.h include/libxml/list.h \
+  include/libxml/xmlautomata.h include/libxml/entities.h \
+  include/libxml/encoding.h include/libxml/xmlIO.h include/libxml/SAX.h \
+  include/libxml/xlink.h include/libxml/SAX2.h include/libxml/uri.h \
+  include/libxml/parserInternals.h include/libxml/HTMLparser.h \
+  include/libxml/chvalid.h buf.h save.h elfgcchack.h
+
+libxml.h:
+
+config.h:
+
+include/libxml/xmlversion.h:
+
+include/libxml/xmlexports.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdio.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/features.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/string.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/string.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/strings.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/limits.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/lib/libc/musl/arch/emscripten/bits/limits.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/ctype.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/ctype.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/stdlib.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdlib.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/alloca.h:
+
+include/libxml/xmlmemory.h:
+
+include/libxml/threads.h:
+
+include/libxml/globals.h:
+
+include/libxml/parser.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/compat/stdarg.h:
+
+/Users/czenzel/Documents/Source/emsdk_portable/emscripten/1.35.0/system/include/libc/stdarg.h:
+
+include/libxml/tree.h:
+
+include/libxml/xmlstring.h:
+
+include/libxml/xmlregexp.h:
+
+include/libxml/dict.h:
+
+include/libxml/hash.h:
+
+include/libxml/valid.h:
+
+include/libxml/xmlerror.h:
+
+include/libxml/list.h:
+
+include/libxml/xmlautomata.h:
+
+include/libxml/entities.h:
+
+include/libxml/encoding.h:
+
+include/libxml/xmlIO.h:
+
+include/libxml/SAX.h:
+
+include/libxml/xlink.h:
+
+include/libxml/SAX2.h:
+
+include/libxml/uri.h:
+
+include/libxml/parserInternals.h:
+
+include/libxml/HTMLparser.h:
+
+include/libxml/chvalid.h:
+
+buf.h:
+
+save.h:
+
+elfgcchack.h:
