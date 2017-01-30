@@ -1,0 +1,25 @@
+<script>
+var text = '';
+
+var Module = {
+	arguments: ['-in', 'data.bin', '-I'],
+	preInit: [function() {
+		var oReq = new XMLHttpRequest();
+		oReq.open('GET', '/ds.snow.bin');
+		oReq.responseType = 'arraybuffer';
+		oReq.onload = function (oEvent) {
+			var arrayBuffer = oReq.response;
+			var byteArray = new Uint8Array(arrayBuffer);
+			FS.writeFile('data.bin', byteArray, {encoding: 'binary'});
+		};
+		oReq.send(null);
+	}],
+	print: function() {
+		return function(text) {
+			if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+			console.log(text);
+		};
+	}()
+};
+</script>
+<script src="degrib.browser.js"></script>
