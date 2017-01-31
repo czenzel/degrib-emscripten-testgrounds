@@ -1,0 +1,46 @@
+<html>
+<body>
+
+<script src="jquery.js"></script>
+<script src="jquery.ajaxtransports.js"></script>
+<script src="require.js"></script>
+
+<script>
+var text = '';
+var fileRead;
+
+$(document).ready(function() {
+	$('#fileUpload').on('change', function(evt) {
+		var f = evt.target.files[0];
+		if (f) {
+			var r = new FileReader();
+			r.onload = function(e) {
+				var u8 = new Uint8Array(e.target.result);
+				window.fileRead = u8;
+				window.runDegrib();
+			};
+			r.readAsArrayBuffer(f);
+			$('#fileUpload').val('');
+		} else {
+			console.log('This action failed');
+		}
+	});
+});
+
+var degrib;
+
+window.runDegrib = function() {
+	(function() {
+		requirejs.undef('degrib.files');
+		window.degrib = require(['degrib.files']);
+	})();
+};
+
+window.processFileActions = function(FS) {
+	FS.writeFile('/data.bin', window.fileRead, {encoding: 'binary'});
+};
+</script>
+<input type="file" id="fileUpload" /><br />
+<textarea id="console" style="background: rgba(0,0,0,0.8); font-family: Courier; font-size: 10pt; color: White; width: 450px; height: 200px;" readonly="true"></textarea>
+</body>
+</html>
