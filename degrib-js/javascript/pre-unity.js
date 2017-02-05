@@ -1,0 +1,1 @@
+var degribModule = function() { 
