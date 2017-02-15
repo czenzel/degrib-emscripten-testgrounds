@@ -10,7 +10,16 @@ define(['degrib.browser'], function(myModule) {
 		}(),
 		postRun: function() {
 			$(document).ready(function() {
-				$('#console').val(content);
+				var rows = content.split("\n");
+				for (var i = 0; i < rows.length; i++) {
+					if (i > 0 && i == 1) {
+						var columns = rows[i].split(", ");
+						if (columns.length > 4) {
+							var strData = "The current cloud cover in Hilltown Township is " + Math.round(parseInt(columns[4])) + "%";
+							$("#console").val(strData);
+						}
+					}
+				}
 			});
 		}
 	});
